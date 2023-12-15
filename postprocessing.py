@@ -195,7 +195,7 @@ def plot_engineering_stress_strain():
         plt.legend()
         plt.xlabel('Engineering strain')
         plt.ylabel('Engineering stress (Pa)')
-        plt.title('Engineering stress - true strain curve')
+        plt.title('Engineering stress - strain curve')
         fig_name = f'analysis_engineering_stress_strain_{load_direction}_{file_name}.png'
         plt.savefig(fig_name)
     # Memory management
