@@ -6,8 +6,8 @@
 #SBATCH --partition=medium
 #SBATCH --time=02:00:00
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=4
-#SBATCH --cpus-per-task=64
+#SBATCH --ntasks-per-node=8
+#SBATCH --cpus-per-task=32
 #SBATCH --hint=multithread
 #SBATCH --mail-type=FAIL
 #SBATCH --mail-user=tran.minhhoang@aalto.fi
