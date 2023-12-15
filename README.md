@@ -9,6 +9,7 @@ Accept load cases with and without .yaml file extension. Example:
 QP1000_DP linear_tensionX.yaml linear_tensionY.yaml tension_relax_cycle
 
 To run DAMASK simulations:
+
     1.  Make sure that damask-grid.sif is in the working directory. If not, build
         a damask image following https://docs.csc.fi/computing/containers/creating/.
         Use docker://eisenforschung/damask-grid:<version>.
