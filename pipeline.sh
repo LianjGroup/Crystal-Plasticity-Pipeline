@@ -84,7 +84,7 @@ then
         load=("${loadcases[n]}")
         geom=("${geometries[n]}")
         path=("./simulations/${mat}_${load:0:(-5)}")
-        srun -n 1 python3 postprocessing.py -f "${path}/${geom::(-4)}_${load::(-5)}_${matyaml::(-5)}.hdf5" > "${path}/py_postprocessing.out" 2>&1 &
+        python3 postprocessing.py -f "${path}/${geom::(-4)}_${load::(-5)}_${matyaml::(-5)}.hdf5" > "${path}/py_postprocessing.out" 2>&1 &
     done
     wait
     echo "Finished post-processing"
