@@ -37,3 +37,8 @@ and directly call python postprocessing file
 This efficiently uses billing units. Note that this can only be done only after 
 the simulations are finished, otherwise an error may occur and damask may be
 interrupted.
+
+The following video demonstrate how the team used the pipeline to run simulations, get
+automated post-processing results, and perform some visualization.
+        https://aaltofi-my.sharepoint.com/:v:/g/personal/tran_minhhoang_aalto_fi/EbgTLuW1nhtAinwtPAaAjsEBPYronB6eUPGToNtG-bRt0A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SX3mhc
+
