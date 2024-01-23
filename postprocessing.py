@@ -141,12 +141,12 @@ def plot_true_stress_strain():
     
         plt.figure(figsize=(12,8))
         for i in range(len(phases)):
-            plt.plot(x_data[i], y_data[i], label=phases[i])
+            plt.plot([x*100 for x in x_data[i]], [y*1e-6 for y in y_data[i]], label=phases[i])
         if multi_phase:
-            plt.plot(x_data[-1], y_data[-1], label='Macro')
+            plt.plot([x*100 for x in x_data[-1]], [y*1e-6 for y in y_data[-1]], label='Macro')
         plt.legend()
-        plt.xlabel('True strain')
-        plt.ylabel('True stress (Pa)')
+        plt.xlabel('True strain (%)')
+        plt.ylabel('True stress (MPa)')
         plt.title('True stress - true strain curve')
         fig_name = f'analysis_true_stress_strain_{load_direction}_{file_name}.png'
         plt.savefig(fig_name)
@@ -193,8 +193,8 @@ def plot_engineering_stress_strain():
         if multi_phase:
             plt.plot([(x-1)*100 for x in x_data[-1]], [y*1e-6 for y in y_data[-1]], label='Macro')
         plt.legend()
-        plt.xlabel('Engineering strain')
-        plt.ylabel('Engineering stress (Pa)')
+        plt.xlabel('Engineering strain (%)')
+        plt.ylabel('Engineering stress (MPa)')
         plt.title('Engineering stress - strain curve')
         fig_name = f'analysis_engineering_stress_strain_{load_direction}_{file_name}.png'
         plt.savefig(fig_name)
