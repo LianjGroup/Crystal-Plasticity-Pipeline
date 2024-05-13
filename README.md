@@ -40,5 +40,5 @@ interrupted.
 
 The following video demonstrate how the team used the pipeline to run simulations, get
 automated post-processing results, and perform some visualization.
-        https://aaltofi-my.sharepoint.com/:v:/g/personal/tran_minhhoang_aalto_fi/EbgTLuW1nhtAinwtPAaAjsEBPYronB6eUPGToNtG-bRt0A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SX3mhc
+https://aaltofi-my.sharepoint.com/:v:/g/personal/minh_h_tran_aalto_fi/EbgTLuW1nhtAinwtPAaAjsEBPYronB6eUPGToNtG-bRt0A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=l37XIH
 
